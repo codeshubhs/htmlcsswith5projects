@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow </title>
+    <style>
+.container{
+    display: flex;
+}
+.card{
+    padding :12px 15px;
+    margin :12px 15px;
+   /* border: 2px solid brown;*/
+    background-color: cadetblue;
+    /* box-shadow : offset x offset y color*/
+/*
+    box-shadow:3px 5px brown ;
+    /* box-shadow : offsetx offsety ye humko upar se dega shadow*/
+   /* box-shadow: -3px -8px yellow;
+    */
+    /* ye humko blur provide karega */
+   /* box-shadow: 2px 3px 8px green;
+    /* ye humko spread provide karega color ko spread kar dega */
+   /* box-shadow: 3px 4px 5px 9px blue;
+    /* ye humko upar se shadow lake dega inline*/
+   /* box-shadow: inset 4px 8px pink;
+    /* yaha hum multiple shadow ko ek sath use kar sakte hai */
+    
+    box-shadow: 4px 5px orange, 3px 8px red;
+}
+.card h2{
+    /* text shadow in positive for text k liye hota hai text shadow*/
+    text-shadow: 3px 4px blue;
+    /* hum text ko bhi shadow de skte hai negative and positive dono me*/
+   /* text-shadow: -3px -5px rgb(0, 84, 70);*/
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1"> <!-- we can use cntrl+x for copy cntrl+v paste-->
+           <h2>This is course of Webdevelopment</h2>
+        <p>i will continue with this course till. The course is completion .Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam aperiam, aut officia quidem, velit tenetur harum praesentium blanditiis accusantium eligendi iure quas? Debitis laudantium, tempore expedita dignissimos iusto numquam eligendi reprehenderit corporis rerum accusamus obcaecati delectus at, maiores, nam incidunt sequi! Accusantium blanditiis necessitatibus est labore velit officiis facilis.</p> </div>
+        <div class="card" id="card-2">
+            <h2>This is course of Css</h2><p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ab aliquid consequatur molestiae quos, deserunt eos illo sed sit? Rerum harum deserunt et quod numquam, provident voluptatem cumque beatae qui perferendis id earum repellat obcaecati!
+            </p></div>
+        <div class="card" id="card-3">
+            <h2>This is course of Html</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus officia eveniet dolore. Voluptatum esse molestiae, eos, distinctio eveniet doloremque repellendus aut, exercitationem hic sit excepturi voluptates deleniti tempore laboriosam blanditiis necessitatibus ratione sunt eaque? Explicabo provident id cumque assumenda voluptatum?</p></div>
+    </div>
+</body>
+</html>

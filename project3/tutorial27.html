@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility & z-index</title>
+    <style>
+        .box{
+            width :150px;
+            height: 150px;
+            border : 2px solid black ;
+        }
+        #box-1{
+            /*       display none for remove place        */
+           /* display: none;*/
+            /* visibility for  hidden and reserved a place */
+           /* visibility: hidden;*/
+           top:34px;
+           position: relative;
+           z-index: 34px;
+            background-color: aqua;
+        }
+        #box-2{
+background-color: chocolate;
+position: relative;
+z-index: -15px;
+        }
+        #box-3{
+background-color: cadetblue;
+        }
+        #box-4{
+background-color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1"></div>
+    <div class="box" id="box-2"></div>
+    <div class="box" id="box-3"></div>
+    <div class="box" id="box-4"></div>
+
+</body>
+</html>

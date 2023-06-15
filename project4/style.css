@@ -1,0 +1,56 @@
+*{
+    margin :0px;
+    padding: 0px;
+}
+/* styling first paralax*/
+.Parallax-1{
+    width: 100%;
+    height:666px;
+    background-image: url(Art4.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.Parallax-1 h2{
+    margin: auto;
+    position: relative;
+    left :500px;
+    top :300px;
+    width:250px;
+    height :32px;
+    padding: 10px;
+    background-color: crimson;
+    color :aliceblue;
+    text-align: center;
+}
+.Parallax-2{
+    width: 100%;
+    height:666px;
+    background-image: url(Art3.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.Parallax-2 h2{
+    margin: auto;
+    position: relative;
+    left :500px;
+    top :300px;
+    width:250px;
+    height :37px;
+    padding: 10px;
+    background-color: crimson;
+    color :aliceblue;
+    text-align: center;
+}
+.Para-1{
+    padding: 50px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 17px;
+}
+.Para-2{
+    text-align: center;
+    padding: 25px;
+    font-size: 17px;
+    background-color: black;
+    color: aliceblue;
+}

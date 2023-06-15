@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and custom properties</title>
+    <style>
+        :root{
+--primary-color:red;
+--danger-color:purple;
+--maxw:333px;
+        }
+        .box{
+            /*how to create variable this is syntax of variable*/
+          /*  --box-color:blue;*/
+            width :200px;
+            height:200px;
+            background-color: var(--primary-color);
+            border :2px solid orange;
+            margin :2px 5px;/* margin 2px upar and niche se 5px side se*/
+            box-shadow: 2px 5px var(--danger-color);
+        }
+        .container{
+            /* when we want to give color to my container then i have create a variable again*/
+          /*  --box-color:orange;*/
+          margin: auto;
+          text-align: center;
+          justify-content: center;
+            display: flex;
+            background-color: var(--danger-color);
+            max-width: var(--maxw);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+    </div>
+</body>
+</html>

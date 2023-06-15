@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+.container{
+    height: 540px;
+    width:100%;
+    border :2px solid black;
+    display: flex;/* intialise the container as flex box*/
+    /* here we use flex -direction for give direction as we want row or column*/
+/*flex-direction: row; default value set pahle se rahta hai 
+/*flex-direction: column;
+flex-direction: row-reverse;
+flex-direction: column-reverse;*/
+ /* make website to responsive*/
+/* we have a shorthand to use both direction and wrap together*/
+flex-flow: row wrap;
+/*   here we use justify content by this we make content horizontaly center*/
+justify-content: center;
+/* by this we make space between ontent*/
+/*justify-content: space-between;
+/* by using this we justify content in end*/
+/*justify-content: end;
+/* by using this we align content verticaly center*/
+align-items: center;
+
+}
+.item{
+width :200px;
+height :100px;
+background-color: tomato;
+border :2px solid green;
+margin :10px;
+padding :3px;
+}
+#item-1{
+flex-grow: 2;
+
+}
+#item-2{
+    flex-grow: 3;
+    flex-shrink: 2;
+    flex-basis: 320px;
+}
+#item-3{
+    flex:2 2 320px;
+}
+#item-4{
+    
+}
+    </style>
+</head>
+<body>
+    <h1>This is flex box </h1>
+    <div class="container">
+        <!--div.item#item-$*4 isse apko 4 class mil jayega jitna chaho le skte ho -->
+    <div class="item" id="item-1">First</div>
+    <div class="item" id="item-2">Second</div>
+    <div class="item" id="item-3">Third</div>
+    <div class="item" id="item-4">Fourth</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(174, 218, 223);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+/* styling for form */
+form{
+background-color: antiquewhite;
+max-width: 400px;
+/*height: 850px;*/
+margin: 45px auto;
+padding: 20px;
+box-shadow: 2px 5px 10px rgba(red, green, blue, alpha);
+}
+/* styling for form-control class */
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+/* styling form-control input select text area */
+.form-control input,
+.form-control select,
+.form-control textarea{
+    border: 2px solid black;
+    border-radius: 3px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+/* styling for button */
+/*utton{
+    background-color: brown;
+    border-radius: 2px;
+    
+}
+*/

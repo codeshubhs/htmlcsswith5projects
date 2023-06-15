@@ -1,0 +1,39 @@
+*{
+    margin :0px;
+    padding :0px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    
+    margin :34px 45px;
+
+
+
+}
+#logo img{
+    height :59px;
+    margin :34px 45px;
+    
+}
+#navbar ::before{
+    content :" ";
+    background-color: black;
+    z-index: -1;
+}
+#navbar ul{
+display: flex;
+}
+#navbar ul li{
+list-style: none;
+font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius:12px ;
+    text-decoration: none;
+}
